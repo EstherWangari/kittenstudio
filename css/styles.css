@@ -30,6 +30,9 @@ hr{border: 2px solid white;  width:22%;border-radius:131%;font-weight: 600;}
 @media (max-width: 575.98px) {
   .bg1{background-image: url(../post/assets/banner.jpg);background-size: cover;height:200px;margin-top: 30px;}
   .bg1 p {font-family:'Kirang Haerang', cursive;padding-top:100px;text-align:left;font-size:35px;line-height:1;padding-right:60px;text-shadow:1px 1px #fff;}
-
-
+  .links a { font-size:10px;display:inline}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .fun .bg2,.gang .bg3,.home .bg4{height:unset}
 }
